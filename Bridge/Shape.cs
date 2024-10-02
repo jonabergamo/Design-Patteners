@@ -7,5 +7,7 @@ public abstract class Shape
         this.drawImplementation = drawImplementation;
     }
 
-    public abstract void Draw();
+    public abstract void Draw(int x, int y);
+    public abstract string GetShapeInfo();
+
 }

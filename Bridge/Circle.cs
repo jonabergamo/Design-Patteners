@@ -1,16 +1,21 @@
 public class Circle : Shape
 {
-    private int radius, x, y;
+    private int radius, width, height;
 
-    public Circle(int radius, int x, int y, IDrawImplementation drawImplementation) : base(drawImplementation)
+    public Circle(int radius, int width, int height, IDrawImplementation drawImplementation) : base(drawImplementation)
     {
         this.radius = radius;
-        this.x = x;
-        this.y = y;
+        this.width = width;
+        this.height = height;
     }
 
-    public override void Draw()
+    public override void Draw(int x, int y)
     {
-        drawImplementation.DrawCircle(radius, x, y);
+        drawImplementation.Draw(this, x, y);
+    }
+
+    public override string GetShapeInfo()
+    {
+        return $"Circle with width {width}, height {height} and radius {radius}";
     }
 }

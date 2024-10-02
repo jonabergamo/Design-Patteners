@@ -1,17 +1,21 @@
 public class Rectangle : Shape
 {
-    private int width, height, x, y;
+    private int width, height;
 
-    public Rectangle(int width, int height, int x, int y, IDrawImplementation drawImplementation) : base(drawImplementation)
+    public Rectangle(int width, int height, IDrawImplementation drawImplementation)
+        : base(drawImplementation)
     {
         this.width = width;
         this.height = height;
-        this.x = x;
-        this.y = y;
     }
 
-    public override void Draw()
+    public override void Draw(int x, int y)
     {
-        drawImplementation.DrawRectangle(width, height, x, y);
+        drawImplementation.Draw(this, x, y);
+    }
+
+    public override string GetShapeInfo()
+    {
+        return $"Rectangle with width {width} and height {height}";
     }
 }

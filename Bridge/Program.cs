@@ -2,7 +2,7 @@
 IDrawImplementation printerScreen = new PrinterScreen();
 
 Shape circleOnComputer = new Circle(10, 15, 20, computerScreen);
-Shape rectangleOnPrinter = new Rectangle(30, 40, 5, 10, printerScreen);
+Shape rectangleOnPrinter = new Rectangle(30, 40, printerScreen);
 
-circleOnComputer.Draw();
-rectangleOnPrinter.Draw();
+circleOnComputer.Draw(20, 15);
+rectangleOnPrinter.Draw(10, 30);
