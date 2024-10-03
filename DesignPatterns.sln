@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chain", "Chain\Chain.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton-Ex", "Singleton-Ex\Singleton-Ex.csproj", "{BB6665EB-3806-4C1A-B7AE-DE8AE5A90035}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer-Ex", "Observer-Ex\Observer-Ex.csproj", "{E5474D69-C5A1-492E-ACC9-D55C5E07165C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{BB6665EB-3806-4C1A-B7AE-DE8AE5A90035}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB6665EB-3806-4C1A-B7AE-DE8AE5A90035}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB6665EB-3806-4C1A-B7AE-DE8AE5A90035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5474D69-C5A1-492E-ACC9-D55C5E07165C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5474D69-C5A1-492E-ACC9-D55C5E07165C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5474D69-C5A1-492E-ACC9-D55C5E07165C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5474D69-C5A1-492E-ACC9-D55C5E07165C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
