@@ -26,7 +26,7 @@
             happenings[eventType] = happening;
         }
 
-        Console.WriteLine($"Evento '{eventType}' ocorreu: {happening}");
+        Console.WriteLine($"Evento '{eventType}' foi registrado: {happening}");
         NotifyObservers(eventType);
     }
 

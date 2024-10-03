@@ -7,15 +7,13 @@ Resident resident4 = new Resident("Augusto");
 
 
 archipelago.RegisterObserver("Magia", resident1);
-archipelago.SetHappening("Magia", "Uma explosão magica ocorreu.");
-archipelago.RemoveObserver("Magia", resident1);
-archipelago.SetHappening("Magia", "Uma explosão magica ocorreu.");
-//archipelago.RegisterObserver("Magia", resident2);
-//archipelago.RegisterObserver("Fogos de artificio", resident1);
-//archipelago.RegisterObserver("Fogos de artificio", resident4);
-//archipelago.RegisterObserver("Batalha", resident3);
+archipelago.RegisterObserver("Magia", resident2);
+archipelago.RegisterObserver("Fogos de artificio", resident1);
+archipelago.RegisterObserver("Fogos de artificio", resident4);
+archipelago.RegisterObserver("Batalha", resident3);
 
-//archipelago.SetHappening("Batalha", "As guildas se enfrentaram na ponte.");
-//archipelago.SetHappening("Fogos de artificio", "Fogos foram acionados perto do porto.");
+archipelago.SetHappening("Magia", "O evento de magia ocorrerá hoje as 19h na praça principal.");
+archipelago.SetHappening("Batalha", "As guildas se enfrentarão 21h na ponte ao lado do castelo.");
+archipelago.SetHappening("Fogos de artificio", "Fogos serão acionados perto do porto as 18h.");
 
 
