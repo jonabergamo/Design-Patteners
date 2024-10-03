@@ -16,6 +16,6 @@ public class Rectangle : Shape
 
     public override string GetShapeInfo()
     {
-        return $"Rectangle with width {width} and height {height}";
+        return $"retângulo com largura {width} e altura {height}";
     }
 }

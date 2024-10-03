@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chain", "Chain\Chain.csproj", "{5067EB63-B356-4941-B675-E3774227278C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton-Ex", "Singleton-Ex\Singleton-Ex.csproj", "{BB6665EB-3806-4C1A-B7AE-DE8AE5A90035}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{5067EB63-B356-4941-B675-E3774227278C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5067EB63-B356-4941-B675-E3774227278C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5067EB63-B356-4941-B675-E3774227278C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB6665EB-3806-4C1A-B7AE-DE8AE5A90035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB6665EB-3806-4C1A-B7AE-DE8AE5A90035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB6665EB-3806-4C1A-B7AE-DE8AE5A90035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6665EB-3806-4C1A-B7AE-DE8AE5A90035}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

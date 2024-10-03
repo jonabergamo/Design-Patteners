@@ -16,6 +16,6 @@ public class Circle : Shape
 
     public override string GetShapeInfo()
     {
-        return $"Circle with width {width}, height {height} and radius {radius}";
+        return $"circulo com largura {width}, altura {height} e raio {radius}";
     }
 }
